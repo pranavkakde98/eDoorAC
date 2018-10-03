@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="todo">TODO</string>
+    <string name="under_plumber">Every Plumber is skill checked,\nbackground verifies and continuously \nevaluated</string>
+    <string name="pricing">Transparent and fixed pricing</string>
+    <string name="under_pricing">Fixed hourly rates for all your service\nneeds</string>
+    <string name="protection">Customer protection</string>
+    <string name="under_protection">30 days service guarantee and upto INR\n10,000 of damage protection on each \nbooking</string>
+    <string name="radio1text1">Repairs &amp; Fixes</string>
+    <string name="radio1text2">Pay if you take service,as per rate \ncard shared next</string>
+    <string name="radio2text1">Recommended for installation of \nmajor hardware fittings like Western\nToilet,Wash Basin etc</string>
+    <string name="radio2head">Standard Installation Services</string>
+    <string name="pricing2">Pricing &amp; Terms</string>
+
+
+    <string name="hourly_pricing">Hourly Pricing</string>
+    <string name="inspect">Inspection is Free</string>
+
+
+    <string name="additional_cost1">Additional cost</string>
+    <string name="additional_cost2">Rs 100 convenience fee for material \nprocurement</string>
+    <string name="additional_cost3">Rs 100 for every 60 minutes for helper \n(if required for complex work)</string>
+
+    <string name="cost">Prices for Drain and Pipe Blockage work will be \nprovided after inspection</string>
+<string name="where">Where do you need the \nservice?</string>
+
+</resources>

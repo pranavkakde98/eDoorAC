@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/pricing2"
+                android:textSize="26dp"
+                android:textColor="@color/Black"
+                android:gravity="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_below="@id/layout1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/clock"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/ic_circular_clock"/>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_toRightOf="@id/clock"
+                   android:layout_marginLeft="20dp">
+
+                   <RelativeLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent">
+
+                        <TextView
+                       android:id="@+id/hourly"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textSize="22dp"
+                            android:layout_marginTop="6dp"
+                       android:textColor="@color/Black"
+                       android:text="@string/hourly_pricing"/>
+
+                        <TextView
+                            android:id="@+id/inspect"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/hourly"
+                            android:layout_marginTop="5dp"
+                            android:textSize="18dp"
+                            android:text="@string/inspect"/>
+
+                       <TextView
+                           android:id="@+id/list1"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_below="@id/inspect"
+                           android:layout_marginTop="14dp"
+                           android:textSize="18dp"
+                           android:text="Upto 30 mins:        Rs 199"/>
+
+                       <TextView
+                           android:id="@+id/list2"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_below="@id/list1"
+                           android:layout_marginTop="8dp"
+                           android:textSize="18dp"
+                           android:text="Upto 1 Hour:          Rs 249"/>
+
+                       <TextView
+                           android:id="@+id/list3"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_below="@id/list2"
+                           android:layout_marginTop="8dp"
+                           android:textSize="18dp"
+                           android:text="Upto 1.5 Hours:     Rs 349"/>
+
+                       <TextView
+                           android:id="@+id/list4"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_below="@id/list3"
+                           android:layout_marginTop="8dp"
+                           android:textSize="18dp"
+                           android:text="Upto 2 Hours:        Rs 199"/>
+
+                       <TextView
+                           android:id="@+id/list5"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_below="@id/list4"
+                           android:layout_marginTop="8dp"
+                           android:textSize="18dp"
+                           android:text="Upto 2.5 Hours:     Rs 199"/>
+
+                       <TextView
+                           android:id="@+id/list6"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_below="@id/list5"
+                           android:layout_marginTop="8dp"
+                           android:textSize="18dp"
+                           android:text="Upto 3 Hours:        Rs 199"/>
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_below="@id/list6"
+                           android:layout_marginTop="8dp"
+                           android:textSize="18dp"
+                           android:text="After 3 Hours:       Rs 50 per 30 mins"/>
+
+                   </RelativeLayout>
+
+               </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="350dp"
+        android:layout_below="@id/layout1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/ic_rupee_indian"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="6dp"
+                android:text="@string/additional_cost1"
+                android:textSize="22dp"
+                android:textColor="@color/Black"/>
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/additional_cost2"
+                android:layout_below="@id/text9"
+                android:layout_marginLeft="60dp"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/additional_cost3"
+                android:layout_below="@id/text10"
+                android:layout_marginLeft="60dp"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"/>
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            android:layout_below="@id/layout2">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/ic_checked"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/text12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="6dp"
+                    android:text="Note"
+                    android:textSize="22dp"
+                    android:textColor="@color/Black"/>
+
+                <TextView
+                    android:id="@+id/text13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cost"
+                    android:layout_below="@id/text12"
+                    android:layout_marginLeft="60dp"
+                    android:textSize="18dp"
+                    android:layout_marginTop="10dp"/>
+
+
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff">
+
+        <Button
+            android:id="@+id/next2_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_alignParentBottom="true"
+            android:text="Next"
+            android:background="@color/Black"
+            android:textSize="18dp"
+            android:textColor="#ffffff"/>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
